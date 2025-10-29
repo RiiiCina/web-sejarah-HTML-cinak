@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah Web: HTML, CSS & JavaScript</title>
+    
+    <!-- Menghubungkan ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Menghubungkan ke font Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">WebHistory</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content hidden">
+                <h1>Tiang Penyangga World Wide Web</h1>
+                <p>Menjelajahi sejarah dan evolusi dari tiga teknologi fundamental yang membangun internet modern: HTML, CSS, dan JavaScript.</p>
+            </div>
+        </section>
+
+        <section id="html">
+            <div class="container hidden">
+                <h2>Sejarah <span class="accent-color">HTML</span></h2>
+                <p>HTML (HyperText Markup Language) adalah tulang punggung dari setiap halaman web. Ia bertanggung jawab atas struktur dan konten.</p>
+                
+                <div class="milestone hidden">
+                    <h3>1989 - Ide Awal</h3>
+                    <p>Tim Berners-Lee, seorang ilmuwan di CERN, mengusulkan sistem manajemen informasi berbasis hiperteks yang menjadi cikal bakal World Wide Web.</p>
+                </div>
+                <div class="milestone hidden">
+                    <h3>1991 - HTML 1.0</h3>
+                    <p>Versi pertama HTML yang sangat sederhana, hanya memiliki 22 tag untuk memformat teks dasar, menautkan dokumen, dan menampilkan gambar.</p>
+                </div>
+                <div class="milestone hidden">
+                    <h3>1997 - HTML 4.01</h3>
+                    <p>Menjadi standar yang sangat dominan dan digunakan secara luas selama lebih dari satu dekade. Memperkenalkan tabel, frame, dan skrip lebih baik.</p>
+                </div>
+                <div class="milestone hidden">
+                    <h3>2014 - HTML5</h3>
+                    <p>Revolusi besar! HTML5 membawa elemen semantik seperti &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;footer&gt;, serta dukungan native untuk audio, video, dan grafik (Canvas).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="css">
+            <div class="container hidden">
+                <h2>Sejarah <span class="accent-color">CSS</span></h2>
+                <p>CSS (Cascading Style Sheets) adalah "pakaian" untuk HTML. Ia memisahkan presentasi (tampilan) dari struktur, memungkinkan desain yang kreatif dan konsisten.</p>
+                
+                <div class="milestone hidden">
+                    <h3>1994 - CSS1</h3>
+                    <p>Dikembangkan oleh Håkon Wium Lie. CSS1 memperkenalkan konsep dasar seperti font, warna, margin, padding, dan positioning.</p>
+                </div>
+                <div class="milestone hidden">
+                    <h3>1998 - CSS2</h3>
+                    <p>Menambahkan fitur-fitur canggih seperti positioning absolut, z-index, media queries (versi awal), dan dukungan untuk perangkat selain layar (seperti printer).</p>
+                </div>
+                <div class="milestone hidden">
+                    <h3>2011 - CSS3</h3>
+                    <p>Bukan satu versi besar, melainkan kumpulan "modul". CSS3 membawa animasi, transisi, transformasi 3D, border-radius, flexbox, grid, dan variabel, yang mengubah cara kita mendesain web.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="js">
+            <div class="container hidden">
+                <h2>Sejarah <span class="accent-color">JavaScript</span></h2>
+                <p>JavaScript adalah "otak" yang membuat halaman web menjadi interaktif dan dinamis. Dari animasi sederhana hingga aplikasi web yang kompleks.</p>
+                
+                <div class="milestone hidden">
+                    <h3>1995 - Mocha & LiveScript</h3>
+                    <p>Dibuat oleh Brendan Eich di Netscape dalam waktu hanya 10 hari! Awalnya bernama Mocha, lalu LiveScript, sebelum akhirnya diubah menjadi JavaScript untuk menarik minat dari popularitas Java.</p>
+                </div>
+                <div class="milestone hidden">
+                    <h3>1997 - ECMAScript</h3>
+                    <p>Untuk menstandarisasi bahasa, ECMA International merilis spesifikasi ECMAScript. Ini adalah standar yang menjadi dasar bagi semua implementasi JavaScript.</p>
+                </div>
+                <div class="milestone hidden">
+                    <h3>2015 - ES6 / ECMAScript 2015</h3>
+                    <p>Pembaruan terbesar dalam sejarah JavaScript. Memperkenalkan fitur modern seperti `let` dan `const`, arrow functions, classes, promises, dan modules, yang membuat kode lebih bersih dan kuat.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline">
+            <div class="container hidden">
+                <h2>Timeline Evolusi Web</h2>
+                <p>Lihat bagaimana ketiga pilar ini berkembang bersamaan.</p>
+                
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item hidden">
+                        <div class="timeline-dot html-dot"></div>
+                        <div class="timeline-content">
+                            <h3>1991</h3>
+                            <p><strong>HTML 1.0</strong> lahir, memulai era World Wide Web.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item hidden">
+                        <div class="timeline-dot css-dot"></div>
+                        <div class="timeline-content">
+                            <h3>1994</h3>
+                            <p><strong>CSS1</strong> diusulkan untuk memisahkan gaya dari konten.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item hidden">
+                        <div class="timeline-dot js-dot"></div>
+                        <div class="timeline-content">
+                            <h3>1995</h3>
+                            <p><strong>JavaScript</strong> diciptakan untuk menambahkan interaktivitas.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item hidden">
+                        <div class="timeline-dot css-dot"></div>
+                        <div class="timeline-content">
+                            <h3>1998</h3>
+                            <p><strong>CSS2</strong> meluncur, membawa positioning dan media queries.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item hidden">
+                        <div class="timeline-dot html-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2014</h3>
+                            <p><strong>HTML5</strong> menjadi standar, mengubah definisi aplikasi web.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item hidden">
+                        <div class="timeline-dot js-dot"></div>
+                        <div class="timeline-content">
+                            <h3>2015</h3>
+                            <p><strong>ES6</strong> merevolusi penulisan JavaScript modern.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Web Sejarah. Dibuat oleh Fachri dengan HTML, CSS, dan JavaScript.</p>
+    </footer>
+
+    <!-- Menghubungkan ke file JavaScript (defer agar dijalankan setelah HTML selesai dimuat) -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
